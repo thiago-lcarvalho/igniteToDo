@@ -1,0 +1,97 @@
+section {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tasksState {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 48.5em;
+    font-weight: bold;
+}
+
+.tasks {
+    margin-top: 1.5em;
+    padding: 0;
+    width: 48.5em;
+    height: 5em;
+    background-color: var(--gray-500);
+    border-radius: 8px;
+    outline: 1px solid var(--gray-700);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: .2s;
+    
+}
+
+.tasksText {
+    padding: 0em;
+    width: 40em;
+}
+
+.tasksTextCompleted {
+    padding: 0em;
+    width: 40em;
+    color: var(--gray-300);
+    text-decoration: line-through;
+}
+
+.tasksButtonCircle {
+    width: 1.375em;
+    height: 1.375em; 
+}
+
+.tasksButtonCircle button {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    background-color: transparent;
+    border-style: none;
+    transition: .2s;
+}
+
+.buttonNotCompleted {
+    transition: .2s;
+}
+
+.buttonNotCompleted:hover {
+    color: var(--blue);
+}
+
+.buttonCompleted {
+    transition: .2s;
+    color: var(--purple-dark)
+}
+
+.buttonCompleted:hover {
+    color: var(--purple);
+}
+
+.tasksButtonTrash button {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    background-color: transparent;
+    border-style: none;
+    transition: .2s;
+    border-radius: 6px;
+    height: 2.5em;
+    width: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--gray-300);
+}
+
+.tasksButtonTrash button:hover {
+    color: #F75A68;
+    background-color: var(--gray-400);
+}
