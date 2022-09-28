@@ -42,7 +42,7 @@ export function TasksHeader({ tasks, onDelete, onComplete }: Props) {
 						<ClipboardText color="#333333" size={100} />
 						<p className={styles.sectionNoTextOne} >Você ainda não tem tarefas cadastradas</p>
 						<p className={styles.sectionNoTextTwo} >Crie tarefas e organize seus itens a fazer</p>
-					</section>
+					</section>  /* Comentando aqui amigos */
 				)}
 			</div>
 		</section>
